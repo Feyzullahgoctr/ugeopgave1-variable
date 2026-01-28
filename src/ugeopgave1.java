@@ -61,5 +61,33 @@ void Operators(){
     sb.append(" years old.");
     System.out.println(sb.toString());
 
+    // Opgave 6 Using +=
+    int score = 100;
+    System.out.println(score);
+    score += 50;
+    System.out.println(score);
+    score += 25;
+
+    // Opgave 7 Using -=
+    int lifeHealth = 100;
+    lifeHealth -= 15;
+    System.out.println(lifeHealth);
+    lifeHealth -= 20;
+    System.out.println(lifeHealth);
+
+    // Opgave 8 Using *=
+    double price = 50;
+    System.out.println(price);
+    price *= 2;
+    System.out.println(price);
+
+    // Opgave 9 Increment og decrement med 1
+    int counter = 10;
+    System.out.println(counter);
+    counter++;
+    System.out.println(counter);
+    counter--;
+    System.out.println(counter);
+
 }
 
