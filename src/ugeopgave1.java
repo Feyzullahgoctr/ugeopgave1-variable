@@ -49,5 +49,17 @@ void Operators(){
     System.out.println("Each guest gets " + cakesPrPerson + " cupcakes");
     System.out.println(leftoverCakes + " cupcakes left over");
 
+    // Opgave 5 Build greeting message
+    StringBuilder sb = new StringBuilder();
+    String name = "Anna";
+    int age = 25;
+    sb.append("Hello, ");
+    sb.append(name);
+    sb.append("! ");
+    sb.append("You are ");
+    sb.append(age);
+    sb.append(" years old.");
+    System.out.println(sb.toString());
+
 }
 
