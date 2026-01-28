@@ -42,7 +42,12 @@ void VariableBasics() {
 void Operators(){
 
     // Opgave 4 Party planning
-
+    int numberOfGuest = 15;
+    int numberOfCakes = 40;
+    int cakesPrPerson = numberOfCakes / numberOfGuest;
+    int leftoverCakes = numberOfCakes % numberOfGuest;
+    System.out.println("Each guest gets " + cakesPrPerson + " cupcakes");
+    System.out.println(leftoverCakes + " cupcakes left over");
 
 }
 
