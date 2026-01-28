@@ -89,5 +89,16 @@ void Operators(){
     counter--;
     System.out.println(counter);
 
+    // Opgave 10 All compound operators
+    int number = 10;
+    number += 5;
+    System.out.println(number);
+    number -= 3;
+    System.out.println(number);
+    number++;
+    System.out.println(number);
+    number--;
+    System.out.println(number);
+
 }
 
