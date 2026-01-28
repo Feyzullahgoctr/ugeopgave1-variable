@@ -1,6 +1,7 @@
 
 void main (){
     VariableBasics();
+    Operators();
 
 }
 
@@ -15,7 +16,7 @@ void VariableBasics() {
     double taxRate   = 25;
     double totalPriceVAT = subtotal + (subtotal * taxRate   / 100);
     System.out.println("subtotal : " + subtotal);
-    System.out.println("totalPriceVAT : " + totalPriceVAT);
+    System.out.println("Total Price + VAT : " + totalPriceVAT);
 
     // Opgave 2 Split restaurant bill
     double foodPrice = 450;
@@ -32,9 +33,9 @@ void VariableBasics() {
     double discountedPrice = totalPrice - (totalPrice * discountRate / 100);
     double taxPercent = 25;
     double finalAmount = discountedPrice + (discountedPrice * taxPercent / 100);
-    System.out.println("Oprindelige Pris : " + totalPrice);
-    System.out.println("Prisen Efter Rabat : " + discountedPrice);
-    System.out.println("Endelige Pris : " + finalAmount);
+    System.out.println("Original Price : " + totalPrice);
+    System.out.println("Price After Discount : " + discountedPrice);
+    System.out.println("Final Price : " + finalAmount);
 
 }
 
