@@ -2,6 +2,7 @@
 void main (){
     VariableBasics();
     Operators();
+    Naming();
 
 }
 
@@ -99,6 +100,10 @@ void Operators(){
     System.out.println(number);
     number--;
     System.out.println(number);
+
+}
+
+void Naming(){
 
     // Opgave 11 E-commerce product
     String itemSale = "Laptop";
