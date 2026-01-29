@@ -23,9 +23,9 @@ void VariableBasics() {
     double foodPrice = 450;
     double drinksPrice = 120;
     double tip = 50;
-    int numberAfPeople = 4;
+    int numberAfPerson = 4;
     double invoice = foodPrice + drinksPrice + tip;
-    double totalPrPerson = invoice / numberAfPeople;
+    double totalPrPerson = invoice / numberAfPerson;
     System.out.println("Total per person : " + totalPrPerson);
 
     // Opgave 3 Discount calculation
