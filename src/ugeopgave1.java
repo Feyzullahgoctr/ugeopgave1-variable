@@ -109,7 +109,38 @@ void Operators(){
     String category = "Electronics";
 
     // Opgave 12 Karaktersystem
+    String studentName = "Anna";
+    int testPoint = 85;
+    int studentPoint = 92;
+    double finalPoint = 88.5;
+    Boolean isPassed = true;
 
+    // Opgave 13 Bookingsystem
+    String guestName = "Peter Hansen";
+    int guestRoomNumber = 204;
+    int numberOfStays = 3;
+    double priceNight = 899;
+    Boolean hasBreakfast = true;
+    double totalAmount = 2697;
+
+    // Opgave 14 Fitness-tracker
+    int numberOfSteps = 8547;
+    int targetedStep = 10000;
+    double distanceKm = 6.2;
+    int caloriesBurned = 420;
+    boolean isGoalAchieved = false;
+
+    // Opgave 15 Bibliotekssystem
+    String bookTitle = "Database";
+    String authorName = "Daniel";
+    String isbnNumber = "157-8-98745";
+    int booksPage = 250;
+    boolean isAvailable = true;
+    String whoBorrower = "Feyzullah Goc";
+    String dueDate = "2026-03-01";
+    double fineAmount = 0;
+    Boolean isBestseller = true;
+    double bookRating = 4;
 
 }
 
