@@ -68,6 +68,7 @@ void Operators(){
     score += 50;
     System.out.println(score);
     score += 25;
+    System.out.println(score);
 
     // Opgave 7 Using -=
     int lifeHealth = 100;
