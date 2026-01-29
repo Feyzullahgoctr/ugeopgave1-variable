@@ -100,5 +100,16 @@ void Operators(){
     number--;
     System.out.println(number);
 
+    // Opgave 11 E-commerce product
+    String itemSale = "Laptop";
+    double itemPrice = 7999.99;
+    Boolean isInventory = true;
+    int remainded = 15;
+    double itemRabat = 10;
+    String category = "Electronics";
+
+    // Opgave 12 Karaktersystem
+
+
 }
 
